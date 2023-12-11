@@ -8,7 +8,7 @@
 	},
 	"files": [],
 	"devDependencies": {
-		"renovate": "^37.81.4"
+		"renovate": "^37.89.7"
 	},
 	"repository": "git@github.com:Khushal-ag/renovate-config.git",
 	"author": "Khushal Agarwal <starkhush5@gmail.com>",
