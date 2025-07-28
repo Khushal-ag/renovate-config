@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   renovate:
-    specifier: ^41.40.0
-    version: 41.40.0(typanion@3.12.1)
+    specifier: ^41.43.5
+    version: 41.43.5(typanion@3.12.1)
 
 packages:
 
@@ -4804,8 +4804,8 @@ packages:
       wrappy: 1.0.2
     dev: true
 
-  /openpgp@6.1.1:
-    resolution: {integrity: sha512-V/DXZ5AGCz3q4X8psUSc3q4SxnH/bfICaTSpNcla7wvBFhrxa9/ajm31rtMwZ1qj7Fu2oMpfX6ZcxKmTBlb6Yg==}
+  /openpgp@6.2.0:
+    resolution: {integrity: sha512-zKbgazxMeGrTqUEWicKufbdcjv2E0om3YVxw+I3hRykp8ODp+yQOJIDqIr1UXJjP8vR2fky3bNQwYoQXyFkYMA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
     dev: true
@@ -5255,8 +5255,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@41.40.0(typanion@3.12.1):
-    resolution: {integrity: sha512-YBH71W5mBc1ckGdmlJO6CbBvYiP7jD/zXAgw0qXc7+HmMXSgzA0KfGHwN68PniukazyqmIPCkQUfPzH58BAYcQ==}
+  /renovate@41.43.5(typanion@3.12.1):
+    resolution: {integrity: sha512-5WIo98HzFZk4e/v1XN4xKvvxkzNwDg8z7+LwdBYFzN53cy8ANb8ziCKFM8tiOhLRXkn40LaDIYp4eEo0Q7K0hg==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
@@ -5379,7 +5379,7 @@ packages:
       zod: 3.25.76
     optionalDependencies:
       better-sqlite3: 12.2.0
-      openpgp: 6.1.1
+      openpgp: 6.2.0
       re2: 1.22.1
     transitivePeerDependencies:
       - aws-crt
