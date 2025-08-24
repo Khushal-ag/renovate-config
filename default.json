@@ -8,12 +8,12 @@
     "schedule:earlyMondays",
     ":semanticCommitTypeAll(chore)"
   ],
-  "rangeStrategy": "bump",
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
-      "automergeStrategy": "squash"
+      "automergeStrategy": "squash",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
-  ]
+  ],
+  "rangeStrategy": "bump"
 }

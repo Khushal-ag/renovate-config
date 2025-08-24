@@ -1,16 +1,16 @@
 {
-	"name": "@Khushal-ag/renovate-config",
-	"private": true,
-	"description": "Presets for Open Source Libraries",
-	"version": "1.0.0",
-	"scripts": {
-		"test": "renovate-config-validator"
-	},
-	"files": [],
-	"devDependencies": {
-		"renovate": "^41.76.0"
-	},
-	"repository": "git@github.com:Khushal-ag/renovate-config.git",
-	"author": "Khushal Agarwal <starkhush5@gmail.com>",
-	"license": "MIT"
+  "name": "renovate-config",
+  "private": true,
+  "description": "Presets for Open Source Libraries",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "files": [],
+  "devDependencies": {
+    "renovate": "^41.76.0"
+  },
+  "repository": "git@github.com:Khushal-ag/renovate-config.git",
+  "author": "Khushal Agarwal <starkhush5@gmail.com>",
+  "license": "MIT"
 }
